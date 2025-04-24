@@ -35,7 +35,7 @@ export default function Footer() {
               <a href="https://github.com/Head2On" className="text-gray-800 hover:text-coachella-pink text-2xl transition">
                 <FaGithub />
               </a>
-              <a href="www.linkedin.com/in/ishanbauri" className="text-gray-800 hover:text-coachella-pink text-2xl transition">
+              <a href="https://linkedin.com/in/ishanbauri" className="text-gray-800 hover:text-coachella-pink text-2xl transition">
                 <FaLinkedin />
               </a>
               <a href="https://x.com/Ishan8520" className="text-gray-800 hover:text-coachella-pink text-2xl transition">
