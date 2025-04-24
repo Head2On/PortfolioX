@@ -27,7 +27,11 @@ export default function About() {
           <div className="md:w-2/3 mt-12">
             <h3 className="text-2xl text-black font-light mb-4">Who am I?</h3>
             <p className="text-gray-800 mb-6">
-              {`Hey there! I'm Ishan, a passionate student diving deep into the world of Backend Development. I love building clean and functional web applications —  and exploring how backend meets frontend in cool ways.`}
+              {`Hey! I'm Ishan — a passionate backend developer who loves building powerful, scalable systems that just work. I'm currently focused on mastering backend technologies, especially using Django, APIs, and all things server-side.
+              While the frontend world is cool, I thrive where the logic lives: in databases, routing, authentication, and clean backend architecture. I'm always up for turning complex ideas into clean, working code.
+              Right now, I’m leveling up through hands-on projects like clones, RESTful services — and I’m just getting started.
+              Let’s build something awesome together.
+`}
             </p>
             <p className="text-gray-800 mb-6">
                 {`When I'm not coding, you'll find me exploring design inspiration from artistic websites, tweaking UI/UX ideas, or deep diving into the latest AI papers. I'm always up for a new challenge — let's build something awesome together!`}
