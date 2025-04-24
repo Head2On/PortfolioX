@@ -39,7 +39,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 max-w-4xl h-svh mx-auto">
+    <div className='border-1 border-black'> 
+    <section id="contact" className="py-20 px-4 max-w-4xl h-svh mx-auto ">
       <h2 className="text-4xl font-light text-center mb-10 mt-5  text-black text-gradient">
         GET IN TOUCH
       </h2>
@@ -132,5 +133,6 @@ export default function Contact() {
         </form>
       )}
     </section>
+    </div>
   );
 }
