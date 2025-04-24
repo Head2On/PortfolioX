@@ -233,7 +233,7 @@ export default function Skills() {
             {/* Skill content (Python SVG + Text) */}
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 px-3">
             <Image
-                src="/assets/Pandas.svg"
+                src="/assets/pandas.svg"
                 alt="Pandas"
                 width={40}
                 height={40}

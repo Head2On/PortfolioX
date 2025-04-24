@@ -5,11 +5,16 @@ import TypeWriter from './TypeWritter';
 import { motion } from 'framer-motion';
 import { saveAs } from 'file-saver';
 
+
 export default function Hero() {
   const handleDownload = () => {
     // Path is relative to the public folder
-    saveAs('/doc/Ishan.pdf', 'Ishan.pdf');
+    saveAs('/doc/Last_resume.pdf', 'resume.pdf');
   };
+
+  const handelViweWork = () =>{
+    window.open('https://github.com/Head2On','_blank')
+  }
 
   return (
     <section
@@ -38,7 +43,7 @@ export default function Hero() {
           <p>{`Backend Developer , UI Designer , CreativeCoder`}</p>
         </h2>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="bg-gradient-to-r border-white bg-gray-700 hover:bg-gray-800 text-white px-8 py-3 rounded-full font-light text-lg">
+          <button onClick={handelViweWork} className="bg-gradient-to-r border-white bg-gray-700 hover:bg-gray-800 text-white px-8 py-3 rounded-full font-light text-lg">
             View My Work
           </button>
           <button onClick={handleDownload} className="border-2 border-black bg-white text-black hover:text-green-400 px-8 py-3 rounded-full font-light text-lg">

@@ -46,8 +46,9 @@ export default function Footer() {
               </a>
 
             {/* Copyright */}
-            <div className="mt-6 p-6 text-center text-gray-900 text-sm">
+            <div className="mt-6 p-6 text-center text-gray-900 font-normal">
                 <p>© {new Date().getFullYear()} Ishan</p>
+                <p className='text-red-500 font-extralight'>Development in progress</p>
             </div>
             </div>
           </div>

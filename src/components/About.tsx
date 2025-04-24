@@ -27,7 +27,7 @@ export default function About() {
           <div className="md:w-2/3 mt-12">
             <h3 className="text-2xl text-black font-light mb-4">Who am I?</h3>
             <p className="text-gray-800 mb-6">
-              {`Hey there! I'm Ishan, a passionate student diving deep into the world of Machine Learning and AI. I love building clean, functional web applications — currently experimenting with modern tools like Next.js, Django, and exploring how backend meets frontend in cool ways.`}
+              {`Hey there! I'm Ishan, a passionate student diving deep into the world of Backend Development. I love building clean and functional web applications —  and exploring how backend meets frontend in cool ways.`}
             </p>
             <p className="text-gray-800 mb-6">
                 {`When I'm not coding, you'll find me exploring design inspiration from artistic websites, tweaking UI/UX ideas, or deep diving into the latest AI papers. I'm always up for a new challenge — let's build something awesome together!`}

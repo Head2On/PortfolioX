@@ -3,23 +3,23 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: "Airbnb Clone",
-    description: "A vibrant festival website with Next.js and Tailwind CSS.",
-    tags: ["Django", "Tailwind", "React"],
-    link: "#",
+    title: "Hitel Management System",
+    description: "A vibrant festival website with Django and Tailwind CSS.",
+    tags: ["Django", "Tailwind" , "PostgreSql"],
+    link: "https://github.com/Head2On/Hotel_Booking_Sys",
     image: "/assets/Airbnb.jpg"
   },
   {
     title: "E-Commerce App",
-    description: "Full-stack e-commerce platform with Stripe integration.",
+    description: "Up-coming Full-stack e-commerce platform with Stripe integration. Links are Comming",
     tags: ["React", "Node.js", "MongoDB"],
     link: "#",
     image: "/assets/ecommerce.jpg"
   },
   {
-    title: "E-Commerce App",
-    description: "Full-stack e-commerce platform with Stripe integration.",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "Student management system",
+    description: " Up-Coming Full-stack Student manage ment system. Links are Comming",
+    tags: ["React", "Typescript", "PostgreSql"],
     link: "#",
     image: "/assets/student.png"
   },
