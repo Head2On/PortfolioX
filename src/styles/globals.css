@@ -21,8 +21,17 @@
 
 html{
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 body {
   background-color: #fff0d9;
   font-family: Poppins, Inter, Archivo, sans-serif;
+}
+
+
+/* Mobile-first media queries */
+@media (max-width: 640px) {
+  html {
+    font-size: 10px;
+  }
 }

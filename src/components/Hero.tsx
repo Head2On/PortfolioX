@@ -9,7 +9,7 @@ import { saveAs } from 'file-saver';
 export default function Hero() {
   const handleDownload = () => {
     // Path is relative to the public folder
-    saveAs('/doc/Last_resume.pdf', 'resume.pdf');
+    saveAs('/doc/Resume.pdf', 'resume.pdf');
   };
 
   const handelViweWork = () =>{

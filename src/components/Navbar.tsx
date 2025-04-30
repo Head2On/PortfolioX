@@ -33,9 +33,11 @@ export default function Navbar(){
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 bg-coachella-dark py-4 px-6 border-t border-gray-800">
-          <div className="flex flex-col space-y-4">
+          <div className="flex gap-6 space-y-4">
             <Link href="#about" onClick={() => setIsOpen(false)}>About</Link>
             <Link href="#projects" onClick={() => setIsOpen(false)}>Projects</Link>
+            <Link href="#skills" onClick={() => setIsOpen(false)}>Skills</Link>
+            <Link href="#contact" onClick={() => setIsOpen(false)}>Contacts</Link>
             {/* ... other links ... */}
           </div>
         </div>
