@@ -25,7 +25,7 @@ export default function About() {
                 <div className="w-full h-full bg-gray-700 flex items-center justify-center">
                   <span className="text-4xl">
                   <Image 
-                    src="/assets/image.jpg" 
+                    src="/assets/img.jpg" 
                     alt="Ishan"
                     width={320}
                     height={320}
