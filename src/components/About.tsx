@@ -17,28 +17,6 @@ export default function About() {
 
         {/* Content Container */}
         <div className="flex flex-col lg:flex-row gap-12 items-center">
-          {/* Image/Graphic - Left Side */}
-          <div className="w-full lg:w-1/3 flex justify-center">
-            <div className="relative">
-              <div className="w-60 h-60 md:w-60 md:h-60 rounded-full bg-gray-800 border-4 border-purple-500/30 overflow-hidden">
-                {/* Replace with your image */}
-                <div className="w-full h-full bg-gray-700 flex items-center justify-center">
-                  <span className="text-4xl">
-                  <Image 
-                    src="/assets/img.jpg" 
-                    alt="Ishan"
-                    width={320}
-                    height={320}
-                    className="w-full h-full object-cover"
-                  />
-                  </span>
-                </div>
-              </div>
-              <div className="absolute -bottom-5 -right-5 bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-bold">
-                Backend Dev
-              </div>
-            </div>
-          </div>
 
           {/* Text Content - Right Side */}
           <div className="w-full lg:w-2/3">
