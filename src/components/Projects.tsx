@@ -20,7 +20,7 @@ const projects = [
     title: "Student management system",
     description: " Up-Coming Full-stack Student manage ment system. Links are Comming",
     tags: ["React", "Typescript", "PostgreSql"],
-    link: "#",
+    link: "https://github.com/Head2On/Student-Management-System",
     image: "/assets/student.png"
   },
 ];
